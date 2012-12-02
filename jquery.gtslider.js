@@ -203,7 +203,7 @@
 
 			timer = setInterval(timerFunc, opts.autoSpeed);
 
-			boxGtSlider.bind('mouseenter mouseleave', function(e){
+			$(self.element).bind('mouseenter mouseleave', function(e){
 
 				if(e.type == 'mouseenter') {
 
