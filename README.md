@@ -1,7 +1,7 @@
-jquery.gtslider
-===============
+# jQuery Slider, is a simple plugin.
+No mystery, no secret.
 
-a simple SLIDER plugin using jQuery
+-----------------
 
 ### How to use
 
@@ -31,7 +31,7 @@ a simple SLIDER plugin using jQuery
 
 ````javascript
 
-	$('.slider').gtSlider({ 
+	$('.slider').gtslider({ 
 		width : 650, 
 		height : 410
 	});
@@ -41,7 +41,7 @@ a simple SLIDER plugin using jQuery
 
 ````javascript
 
-	$('.slider').gtSlider({ 
+	$('.slider').gtslider({ 
 		width : 650,
 		height : 410,
 		pagination : true, // 1,2,3,4

@@ -1,11 +1,10 @@
-/*
- * jQuerySlider
- *
- * Copyright (c) 2012 Gerson Thiago
- */
+/**
+ * jQuery gtSlider plugin
+ * @author Gerson Thiago <http://www.gersonthiago.com> <https://github.com/gersonthiago/jquery.gtslider>
+**/
 ;(function ( $, window, undefined ) {
 
-	var pluginName = 'gtSlider',
+	var pluginName = 'gtslider',
 	document = window.document,
 	defaults = {
 		width : 500,
